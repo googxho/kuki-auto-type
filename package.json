@@ -1,6 +1,6 @@
 {
   "name": "kuki-auto-type",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "kuki",
   "displayName": "kuki-auto-type",
   "description": "从 json 格式导出 typescript 类型",
