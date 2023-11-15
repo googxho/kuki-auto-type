@@ -2,8 +2,8 @@
  * @Auther: googxh
  * @Date: 2023-10-17 14:21:47
  * @LastEditors: googxh 49309686+googxho@users.noreply.github.com
- * @LastEditTime: 2023-11-15 13:12:25
- * @FilePath: \any-type\src\extension.ts
+ * @LastEditTime: 2023-11-15 13:53:22
+ * @FilePath: \kuki-auto-type\src\extension.ts
  * @Description: 
  */
 import { window, commands, env, Range, type ExtensionContext } from 'vscode';
@@ -75,3 +75,46 @@ function insertText(text: string): void {
 }
 // 插件卸载
 export function deactivate() { }
+
+ 
+// 1、 package.json 配置说明：
+
+// name: 项目名 
+// displayName: 插件名 
+// description: 插件描述 
+// version: 版本号 
+// publisher: 发布者id 
+// author: 作者 
+// engines>vscode: vscode版本 
+// categories: 类别 
+// activationEvents: 扩展的激活事件 
+// main: 主入口 
+// contributes>commands: 配置命令 
+// contributes>keybindings: 配置快捷键
+
+// 2、发布
+
+// 1.本地打包
+
+// 安装vsce
+// npm i vsce -g
+
+// 打包成vsix文件
+// vsce package
+
+
+// 从vscode中导入，或者使用如下命令安装插件：
+// code --install-extension /xxx/your.vsix(你本地的插件路径)
+
+// 2.发布到vscode应用市场
+
+// vsce 登陆
+// vsce login [publisherName]
+
+// 然后输入之前获取的个人访问令牌
+
+// 执行发布命令：
+// vsce publish
+
+// 几分钟之后，就可以在插件市场搜到自己发布的插件了~
+

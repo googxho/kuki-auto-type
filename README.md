@@ -2,8 +2,8 @@
  * @Auther: googxh
  * @Date: 2023-10-17 14:21:47
  * @LastEditors: googxh 49309686+googxho@users.noreply.github.com
- * @LastEditTime: 2023-11-15 13:01:38
- * @FilePath: \any-type\README.md
+ * @LastEditTime: 2023-11-15 19:47:47
+ * @FilePath: \kuki-auto-type\README.md
  * @Description: 
 -->
 # kuki-auto-type [![版本](https://badgen.net/vs-marketplace/v/russell.kuki-auto-type)](https://marketplace.visualstudio.com/items?itemName=russell.kuki-auto-type)
@@ -41,4 +41,4 @@ vscode插件, 根据 javascript 字面量生成 typescript 类型.
 ## 计划
 - [x] 输入接口地址, 发起http请求, 解析返回值.
 
-🍭有更好的想法[请留言](https://github.com/any86/kuki-auto-type/issues/new?title=%F0%9F%8D%AD%E5%8A%9F%E8%83%BD%E5%BB%BA%E8%AE%AE)
+🍭有更好的想法[请留言](https://github.com/googxho/kuki-auto-type/issues/new?title=%F0%9F%8D%AD%E5%8A%9F%E8%83%BD%E5%BB%BA%E8%AE%AE)
